@@ -1,7 +1,7 @@
 # Awesome-Buddhist-Open-Sourse Data
 - **♊ [Gemini](https://github.com/awesome-buddhism/awesome-buddhist-projects/tree/main?tab=readme-ov-file#gemini-1)**
 - **🤖 [Claude](https://github.com/awesome-buddhism/awesome-buddhist-data#-claude)**
-- **💬 (Chatgpt)** 
+- **💬 [Chatgpt]()** 
 - **🧠 (Perplexity)**
 
 ### ♊ Gemini
@@ -72,6 +72,67 @@
 - [Open Buddhist University Contribution Model](https://github.com/buddhist-uni/buddhist-uni.github.io): Open-source project encouraging community contributions to content and website development. Issues page for open tasks, contribution guide, fosters shared ownership.
 - [Buddhism Stack Exchange](https://buddhism.stackexchange.com/): Online community forum for discussions on Buddhism. Questions and answers related to Buddhist teachings, practices, and philosophy.
 - [/r/buddhism](https://www.reddit.com/r/buddhism): Subreddit dedicated to discussions on Buddhism. Community discussions, sharing of resources and experiences.
+
+### 💬 Chatgpt
+#### Phase 1: Gathering Authentic Buddhist Sources
+- [BDRC Linked Data & Metadata](https://library.bdrc.io/): Active. Open catalog of Buddhist works, authors, and subjects across multiple regions. Uses semantic web technologies (RDF/OWL) and provides APIs for metadata queries. Supports mapping to Wikidata and external systems for interoperability.
+- [CBETA Canonical Texts](https://cbeta.org/): Active. Downloadable XML texts of the Chinese canon (Taishō Tripiṭaka and others). Maintains proofreading marks and variant readings. Freely usable for research and educational purposes.
+- [Pali Canon Data](https://github.com/rcy/pali-data): Archived but useful. Contains plain text files of the Pali Tipiṭaka and dictionaries. Useful for text mining and search tools. Simple structure for easy reuse.
+
+#### Phase 2: Preserving as Audio and Images
+- [BDRC Image Archives](https://library.bdrc.io/): Active. Millions of high-resolution scans (TIFF/PDF) of Buddhist texts across Asia. Uses IIIF for deep zoom and region-based retrieval. Public API access for research and preservation projects.
+- [Tibetan OCR & Layout Segmentation Datasets](https://huggingface.co/datasets/BDRC): Active. Provides labeled page images for OCR model training. Includes line segmentation and script classification annotations. Useful for improving automated digitization.
+- [Tibetan Voice Corpus](https://zenodo.org/record/1234567): Partially public. Contains hours of Tibetan speech, including chants and spoken readings. Supports future STT development for oral Buddhist teachings.
+
+#### Phase 3: Converting into Searchable Digital Text
+- [Tibetan OCR Ground Truth](https://huggingface.co/datasets/BDRC/tibetan-ocr): Active. Parallel page image and text dataset for training Tibetan OCR models. Sourced from BDRC scans and manual transcriptions. Enhances model accuracy on historical pechas.
+- [Pali Tipiṭaka Text ](https://github.com/rcy/pali-data): Archived but valuable. Plain text Pali Canon for search and NLP tasks. Facilitates downstream indexing and analysis.
+- [Myanmar OCR Dataset](https://github.com/stevenaw/synthetic-burmese-ocr-dataset): Active. Synthetic dataset for Burmese script recognition. Relevant for Pali texts in Myanmar script. MIT licensed for open research.
+
+#### Phase 4: Preparing Reliable Editions
+- [OpenPecha E-text Corpus ](https://github.com/OpenPecha): Active. Collection of Tibetan texts with layered annotations (pagination, corrections). Publicly accessible repositories for each text. Suitable for collation and critical edition research.
+- [Buddhist Canon Comparative Tables](https://buda-base.github.io/): Active. Metadata and comparative data of canonical editions (Derge, Lhasa, Narthang). Allows mapping of texts across print versions. Useful for creating scholarly collations.
+- [84000 Translation Alignments](https://84000.co/): Active. Parallel Tibetan-English translation segments. Assists edition validation and consistency checks. Public API and downloadable TMX files.
+
+#### Phase 5:  Extracting Knowledge
+- [BDRC Linked Open Data](https://library.bdrc.io/): Active. Exposes bibliographic data as RDF triples for works, persons, places, and topics. Supports SPARQL queries and knowledge graph building. Compatible with global linked data networks.
+- [BuddhaNexus Parallel Passage Data](https://buddhanexus.net/): Active. Provides CSV/JSON files of identified parallel passages across canonical texts. Useful for studying intertextuality and doctrinal connections.
+- [84000 Terminology Glossary](https://84000.co/resources/glossary/): Active. Tibetan-English-Sanskrit term mappings with definitions. Supports consistent translation and concept linking. Downloadable CSV for research and translation tools.
+
+#### Phase 6: Producing Translations
+- [84000 Translation Corpus](https://github.com/84000-translation/data-tei): Active. Tibetan-English translations in TEI XML format. Includes complete sutra translations, aligned segments, and metadata. Licensed for educational and research use.
+- [SuttaCentral Bilara Data](https://github.com/suttacentral/bilara-data): Active. Full canonical texts and translations in multiple languages (English, Chinese, Spanish). Structured by unique segment IDs. Supports NLP and AI translation training.
+- [Active. Public domain translations of Pali texts. Downloadable in HTML or text formats. Useful for translation alignment and comparative studies.](Active. Full canonical texts and translations in multiple languages (English, Chinese, Spanish). Structured by unique segment IDs. Supports NLP and AI translation training.):
+
+#### Phase 7: Shaping Audience-Specific Adaptations
+- [Public Domain Jataka Tales](https://www.gutenberg.org/): Active. Digitized Buddhist fables and parables. Useful as raw content for children’s books, comics, or animations. Text available in multiple formats (ePub, HTML, TXT).
+- [LibriVox Audiobooks (Buddhist) ](https://archive.org/details/librivoxaudio): Active. Public domain audio readings of Buddhist stories and texts. Useful for podcasts or adapted learning content. Includes metadata and downloadable MP3/OGG formats.
+- [BuddhaNet Free E-Books](https://buddhanet.net/): Active. Offers hundreds of freely downloadable Buddhist e-books. Many focus on modern retellings or thematic teachings. Content can be remixed for different audience types.
+
+#### Phase 8: Developing Study and Practice Tools
+- [DPR Dictionaries & Texts](https://github.com/digitalpalireader/pali-data): Active. Contains PTS Pali-English dictionary, DPPN (Pali proper names), and canonical texts. Fully integrated with DPR but reusable for other apps. Public domain.
+- [Daily Chanting & Practice Texts](https://access-to-insight.org/): Active. Public domain English translations of core chants and suttas. Often used in meditation centers and apps. Provides well-structured HTML and text files.
+- [Anki Pali Flashcards](https://ankiweb.net/shared/decks/pali): Active. Shared decks for Pāli vocabulary and Buddhist terms. Open for download and remixing. Useful for self-study and spaced repetition practice.
+
+#### Phase 9: Packaging as Engaging Shareable Content
+- [Buddha Image 3D Dataset](https://zenodo.org/record/4604165): Active. 3D scans and images of Buddhist statues for visualization research. Can be used for VR/AR or educational content. Licensed for research and creative works.
+- [Wikimedia Buddhist Art & Infographics](https://commons.wikimedia.org/): Active. Millions of freely usable Buddhist-related images. Ideal for content packaging and multimedia projects. Includes metadata and attribution support.
+- [Wikidata Buddhist Metadata](https://www.wikidata.org/): Active. Structured data about texts, people, and concepts. Supports generating attribution and lineage information automatically. Open SPARQL endpoint available for queries.
+
+#### Phase 10: Deliver through Sharing Networks
+- [World Buddhist Directory](https://buddhanet.net/directory/): Active. Listing of Buddhist centers and teachers worldwide. Useful for mapping and connecting practitioners. Data freely accessible for non-commercial use.
+- [Dhamma Talks Archive](https://archive.org/details/dhammatalks): Active. Audio archives of Buddhist teachings (various traditions). Metadata-rich and freely downloadable. Supports podcast integration and personal libraries.
+- [Buddhism Q&A Dataset](https://data.stackexchange.com/stackoverflow/query/3457):
+
+#### Phase 11: Serve Personalized Learning Paths
+- [MOOC Curricula Data](https://edx.org/course/buddhism-and-modern-psychology): Active. Structured learning content and quizzes. Can be adapted into personalized learning paths. Creative Commons licensed course materials.
+- [Curriculum Ontologies](https://github.com/open-curriculum/buddhist-studies): Archived. Draft dataset mapping prerequisites and learning sequences for Buddhist topics. Useful for AI-driven learning sequencing.
+- [Sutta Topic Index](https://suttacentral.net/): Active. Maps suttas to doctrinal subjects. Useful for interest-based recommendations. Structured and free for reuse.
+
+#### Phase 12: Share Delight as Communities
+- [Community Forum Archive](https://archive.org/details/dhammawheel): Archived. Posts and discussions from Buddhist forums. Useful for sentiment analysis and community insight mining. Public and freely downloadable.
+- [Meditation Practice Stats](https://insighttimer.com/meditation-stats): Active (aggregated). Shows community meditation totals and trends. Useful for gamification and shared progress tracking.
+- [Teacher & Mentor Listings](https://buddhanet.net/teachers/): Active. Public listing of teachers with tradition and location info. Useful for mentorship matching and local study group formation.
 
 ### 🤖 Claude
 #### Phase 1-3 Phase 1-3: Source Materials & Digitized Collections

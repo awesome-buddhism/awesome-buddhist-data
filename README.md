@@ -2,7 +2,7 @@
 - **♊ [Gemini](https://github.com/awesome-buddhism/awesome-buddhist-projects/tree/main?tab=readme-ov-file#gemini-1)**
 - **💬 [Chatgpt](https://github.com/awesome-buddhism/awesome-buddhist-data#-chatgpt)** 
 - **🤖 [Claude](https://github.com/awesome-buddhism/awesome-buddhist-data#-claude)**
-- **🧠 [Perplexity]()**
+- **🧠 [Perplexity](https://github.com/awesome-buddhism/awesome-buddhist-data/blob/main/README.md#-perplexity)**
 
 ### ♊ Gemini
 #### Phase 1: Gathering Authentic Buddhist Sources

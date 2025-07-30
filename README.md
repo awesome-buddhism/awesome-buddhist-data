@@ -2,8 +2,7 @@
 - **♊ [Gemini](https://github.com/awesome-buddhism/awesome-buddhist-projects/tree/main?tab=readme-ov-file#gemini-1)**
 - **💬 [Chatgpt](https://github.com/awesome-buddhism/awesome-buddhist-data#-chatgpt)** 
 - **🤖 [Claude](https://github.com/awesome-buddhism/awesome-buddhist-data#-claude)**
-
-- **🧠 (Perplexity)**
+- **🧠 [Perplexity]()**
 
 ### ♊ Gemini
 #### Phase 1: Gathering Authentic Buddhist Sources
@@ -134,6 +133,51 @@
 - [Community Forum Archive](https://archive.org/details/dhammawheel): Archived. Posts and discussions from Buddhist forums. Useful for sentiment analysis and community insight mining. Public and freely downloadable.
 - [Meditation Practice Stats](https://insighttimer.com/meditation-stats): Active (aggregated). Shows community meditation totals and trends. Useful for gamification and shared progress tracking.
 - [Teacher & Mentor Listings](https://buddhanet.net/teachers/): Active. Public listing of teachers with tradition and location info. Useful for mentorship matching and local study group formation.
+
+### 🧠 Perplexity
+#### Phase 1: Gathering Authentic Buddhist Sources
+- [BDRC Linked-Open-Data dump](https://buda.bdrc.io/graph/LOD): 29M RDF triples describing 74k Tibetan, Sanskrit & Pali works; CC0. Includes institution IDs, scan URIs and provenance graphs for discovery workflows.
+- [Historical Social Network Dataset ](https://github.com/mbingenheimer/ChineseBuddhism_SNA):  18,130 nodes (actors) and 26,831 connections from Chinese Buddhist history; open access. Gephi-ready format covering two millennia from An Shigao to Shengyan, includes dynasty-colored visualizations
+
+#### Phase 2: Preserving as Audio and Images
+- [BDRC High-resolution Scan Sets](https://archive.org/details/@bdrc): BDRC High-resolution Scan Sets – 23TB of TIFFs/WAVs mirrored on Internet Archive; Public Domain/CC-BY. Every file ships with MARCXML and IIIF manifests for preservation and reuse
+- [Ancient Buddhist Texts Audio](https://ancient-buddhist-texts.net/Audio/): 130+ hours of audio recordings in English, Pāli and Sanskrit; free access. MP3 format readings of selected texts including biographical works and early Buddhist sources.
+
+#### Phase 3: Converting into Searchable Digital Text
+- [T-X Corpus](https://zenodo.org/record/12104250): c130+ hours of audio recordings in English, Pāli and Sanskrit; free access. MP3 format readings of selected texts including biographical works and early Buddhist sources.
+- [PACTib Parsed Corpus of Tibetan](https://zenodo.org/record/10584649): 82M-word diachronic corpus with POS-tags and parses; CC BY-4.0. Includes CSV metadata for dating plus segmented/plaintext versions.
+- [OCR Model for Pracalit Sanskrit/Newar MSS](https://zenodo.org/records/6967421): Ground truth data (PNG/XML) for OCR training; open access. Covers 16th-19th century manuscripts with PyLaia model, supports scriptio continua transcription.
+
+#### Phase 4: Preparing Reliable Editions
+- [CBETA TEI-P5 corpus](https://cbetaonline.dila.edu.tw/download): Full Chinese Tripiṭaka (2014 & 2025 R1), 110M words; CC License per volume. Quarterly updates, modern punctuation and indices for each sutra.
+- [Bilara-data](https://github.com/suttacentral/bilara-data): JSON aligned Pali + 46 language translations with segment IDs; CC0. Ideal for multilingual search, TTS and adaptive delivery engines.
+
+#### Phase 5:  Extracting Knowledge
+- [Tātpa Sanskrit-English Parallel Corpus](https://huggingface.co/datasets/buddhist-nlp/tatpa-cleaned): 428k aligned sentences for embedding & KG training; CC BY-SA. Cleaned, de-Danda-normalized and ready for sentence-transformers.
+- [Humanistic Buddhism Corpus (HBC)](https://aclanthology.org/2024.lrec-main.737.pdf): 80k Chinese-English phrase pairs; CC BY-NC-4.0. Benchmarks show Transformer BLEU 13; ideal for fine-tuning Buddhist MT.
+
+#### Phase 6: Producing Translations
+- [Bilara Translation Data](https://github.com/suttacentral/bilara-data): Segment-aligned translations in 46+ languages; CC0. JSON format with consistent segment IDs enabling cross-linguistic parallel text analysis.
+- [Buddhist Translators Workbench Lexicographic Data](https://zenodo.org/records/3605420): Lexicographic datasets for Sanskrit Buddhist translation; CC license. XML format covering key Buddhist terms with semantic analysis.
+
+#### Phase 7: Shaping Audience-Specific Adaptations
+- [Open Buddhist University Archive](https://zenodo.org/records/12804457): 1k+ courses, bibliographies & recordings (Jekyll site ZIP); CC BY-SA. JSON front-matter makes it plug-and-play for static-site generators.
+
+#### Phase 8: Developing Study and Practice Tools
+- [DPD SQLite dump](https://dpdict.net/data/dpd.sqlite): 1.7M rows of lemma, grammar and example data; CC BY-NC-SA. Embeddable in study apps or queried directly for NLP token pipelines.
+- [DILA CBETA Word-Segmented Gold Standard](https://github.com/dila-edu/word-segment): 2M tokens hand-annotated + CRF model; CC BY-SA. Used by researchers to visualize learner progress and by communities to crowd-tag new scans.
+
+#### Phase 9: Packaging as Engaging Shareable Content
+- [SuttaCentral Data](https://github.com/suttacentral/sc-data): Content for SuttaCentral including texts, parallels, structure and metadata; open access. JSON/HTML format with comprehensive Buddhist text corpus organization.
+
+#### Phase 10: Deliver through Sharing Networks
+- [SuttaCentral Editions](https://github.com/suttacentral/editions): Generated files for SuttaCentral publications; CC0. HTML format ready for distribution and sharing across networks.
+
+#### Phase 11: Serve Personalized Learning Paths
+- [Gemma-2 Mitra-Base](https://huggingface.co/buddhist-nlp/gemma2-mitra-base): 9B-param multilingual LLM pre-trained on 7B tokens of Buddhist text; Apache-2.0. Serves as foundation for personalized tutor/chatbots
+  
+#### Phase 12: Share Delight as Communities
+- [Community Translation Data](https://github.com/suttacentral/bilara-data): Collaborative translation dataset with segment-level granularity; CC0. Enables community-driven translation projects with version control and attribution
 
 ### 🤖 Claude
 #### Phase 1-3 Phase 1-3: Source Materials & Digitized Collections
